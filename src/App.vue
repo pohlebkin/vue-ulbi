@@ -1,5 +1,7 @@
 <template>
-    <div>работает!</div>
+    <div>
+        работает!
+    </div>
 </template>
 
 <script>
