@@ -1,19 +1,20 @@
-# vue-ulbi
+# Отработка на практике примеров из обучающего курса
 
-## Project setup
+Ссылка на курс: https://www.youtube.com/watch?v=XzLuMtDelGk
+
+Название: Vue 3 фундаментальный курс от А до Я
+
+Автор: Ulbi TV
+
+Данный репозиторий: https://github.com/pohlebkin/vue-ulbi
+
+
+## Запуск проекта
+
 ```
 npm install
-```
-
-### Compiles and hot-reloads for development
-```
 npm run serve
-```
-
-### Compiles and minifies for production
-```
 npm run build
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+https://cli.vuejs.org/config/ Configuration Reference
