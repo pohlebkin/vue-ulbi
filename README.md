@@ -18,3 +18,8 @@ npm run build
 ```
 
 https://cli.vuejs.org/config/ Configuration Reference
+
+
+## Разное
+
+Vue.js devtools - https://chrome.google.com/webstore/detail/vuejs-devtools/ljjemllljcmogpfapbkkighbhhppjdbg?hl=ru
