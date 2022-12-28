@@ -1,10 +1,18 @@
 <template>
     <div>
-        <button @click="addLike">like</button>
-        <button @click="addDislike">dislike</button>
+        <div class="post">
+            <div><strong>Название:</strong> Пост от JS</div>
+            <div><strong>Описание:</strong> JS best</div>
+        </div>
+        <div class="post">
+            <div><strong>Название:</strong> Пост от JS</div>
+            <div><strong>Описание:</strong> JS best</div>
+        </div>
+        <div class="post">
+            <div><strong>Название:</strong> Пост от JS</div>
+            <div><strong>Описание:</strong> JS best</div>
+        </div>
     </div>
-    <div>кличество лайков: <b>{{ likes }}</b></div>
-    <div>кличество дизлайков: <b>{{ dislikes }}</b></div>
 </template>
 
 <script>
@@ -27,6 +35,16 @@ export default{
 </script>
 
 <style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+.post{
+    padding: 15px;
+    border: 2px solid teal;
+    margin-top: 15px;
+}
 </style>
 

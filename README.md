@@ -6,7 +6,7 @@
 
 Автор: Ulbi TV
 
-Данный репозиторий: https://github.com/pohlebkin/vue-ulbi
+Данный репозиторий с моим кодом: https://github.com/pohlebkin/vue-ulbi
 
 
 ## Запуск проекта
@@ -22,4 +22,4 @@ https://cli.vuejs.org/config/ Configuration Reference
 
 ## Разное
 
-Vue.js devtools - https://chrome.google.com/webstore/detail/vuejs-devtools/ljjemllljcmogpfapbkkighbhhppjdbg?hl=ru
+Расширение хрома Vue.js devtools - https://chrome.google.com/webstore/detail/vuejs-devtools/ljjemllljcmogpfapbkkighbhhppjdbg?hl=ru
