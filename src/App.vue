@@ -1,6 +1,6 @@
 <template>
     <div class="app">
-        <post-form/>
+        <post-form @create="createPost"/>
         <post-list :posts="posts"/>
     </div>
 </template>
@@ -23,20 +23,11 @@ export default{
                 {id: 3, title: 'джаваскрипт 3', body: 'описание поста 3', },
                 {id: 4, title: 'джаваскрипт 4', body: 'описание поста 4', },
             ],
-            'title': '',
-            'body': '',
         }
     },
     methods: {
-        createPost(){
-            const newPost = {
-                id: Date.now(),
-                title: this.title,
-                body: this.body,
-            }
-            this.posts.push(newPost);
-            this.title = '';
-            this.body = '';
+        createPost(event){
+
         },
     },
 }
