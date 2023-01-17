@@ -26,8 +26,8 @@ export default{
         }
     },
     methods: {
-        createPost(event){
-
+        createPost(post){
+            this.posts.push(post);
         },
     },
 }
