@@ -2,15 +2,15 @@
     <form @submit.prevent>
         <h4>создание поста</h4>
         <input
-            v-bind:value="title"
-            @input="title = $event.target.value"
+            v-bind:value="post.title"
+            @input="post.title = $event.target.value"
             class="input"
             type="text"
             placeholder="название"
         >
         <input
-            v-bind:value="body"
-            @input="body = $event.target.value"
+            v-bind:value="post.body"
+            @input="post.body = $event.target.value"
             class="input"
             type="text"
             placeholder="описание"
@@ -24,7 +24,14 @@
 
 <script>
 export default{
-
+    data(){
+        return {
+            post: {
+                title: '',
+                body: ''
+            }
+        }
+    }
 }
 </script>
 
