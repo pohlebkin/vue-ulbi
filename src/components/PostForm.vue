@@ -14,7 +14,6 @@
             placeholder="описание"
         >
         <my-button
-            class="btn"
             style="align-self: flex-end;"
             @click="createPost"
         >
