@@ -64,7 +64,4 @@ form{
     padding: 10px 15px;
     margin-top: 15px;
 }
-
-
-
 </style>
