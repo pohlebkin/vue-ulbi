@@ -1,6 +1,7 @@
 <template>
     <div class="app">
         <h1>страница с постами</h1>
+        <input type="text" v-model="modificatorValue">
         <my-button
             @click="showDialog"
         >
@@ -37,11 +38,13 @@ export default{
                 {id: 4, title: 'джаваскрипт 4', body: 'описание поста 4', },
             ],
             dialogVisible: false,
+            modificatorValue: '',
         }
     },
     methods: {
         createPost(post){
             this.posts.push(post);
+            this.dialogVisible = false;
         },
         removePost(post){
             this.posts = this.posts.filter(p => p.id !== post.id)
