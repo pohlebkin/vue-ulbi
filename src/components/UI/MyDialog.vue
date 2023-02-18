@@ -1,8 +1,18 @@
+
+<!--
+обрати внимание на @click="hideDialog" в родительском элементе
+при клике на затемненную область вне модального окна - окно закрывается
+
+обрати внимание на @click.stop в дочернем элементе
+при клике на само окно - оно не закрывается
+хотя и явлется потомком родительской "затемненной области"
+-->
+
 <template>
     <div
         class="dialog"
         v-if="show === true"
-        @click.stop="hideDialog"
+        @click="hideDialog"
     >
         <div @click.stop class="dialog__content">
             <slot></slot>

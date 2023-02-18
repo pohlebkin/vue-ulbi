@@ -3,12 +3,6 @@
         <h1>страница с постами</h1>
         
         <my-button
-            @click="fetchPosts"
-        >
-            получить посты
-        </my-button>
-        
-        <my-button
             @click="showDialog"
         >
             создать пост
@@ -57,12 +51,16 @@ export default{
         async fetchPosts(){
             try{
                 const response = await axios.get('https://jsonplaceholder.typicode.com/posts?_limit=10');
+                this.posts = response.data;
                 console.log(response);
             }catch(e){
                 alert('ошибка');
             }
         }
     },
+    mounted(){
+        this.fetchPosts();
+    }
 }
 </script>
 
